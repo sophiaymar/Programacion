@@ -1,0 +1,30 @@
+nombre= input("¿Cual es tu nombre? ")
+edad= input("¿Cuantos años tienes? ")
+estatura=input("Ingresa tu estatura en metros: ")
+comida= input("Ingresa tu comida favorita: ")
+domicilio= input("Ingresa tu domicilio: ")
+serie= input("Ingresa tu serie favorita: ")
+pais= input("Ingresa tu país favorito: ")
+musica= input("Ingresa tu música favorita: ")
+
+print(nombre)
+print(type(nombre))
+print(edad)
+print(type(edad))
+print(estatura)
+print(type(estatura))
+print(comida)
+print(type(comida))
+print(domicilio)
+print(type(domicilio))
+print(serie)
+print(type(serie))
+print(pais)
+print(type(pais))
+print(musica)
+print(type(musica))
+
+print(nombre, "tiene", edad,"años y mide", estatura, "metros. El/la", comida, "es su comida favorita,"
+      , serie, "es su serie favorita y", musica, "su musica favorita. Vive en", domicilio, "Y"
+      , pais, "es el país que le gustaría visitar.")
+
