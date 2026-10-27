@@ -1,0 +1,87 @@
+{
+  "pregunta": "¿Es una persona real?",
+  "si": {
+    "pregunta": "¿Es deportista?",
+    "si": {
+      "pregunta": "¿Juega en el PSG?",
+      "si": {
+        "respuesta": "ferran torres"
+      },
+      "no": {
+        "pregunta": "¿Juega en el Barcelona?",
+        "si": {
+          "respuesta": "lamine yamal"
+        },
+        "no": {
+          "pregunta": "¿Juega tenis?",
+          "si": {
+            "respuesta": "serena williams"
+          },
+          "no": {
+            "pregunta": "¿Juega basket?",
+            "si": {
+              "respuesta": "kobe bryant"
+            },
+            "no": {
+              "respuesta": "messi"
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "pregunta": "¿Es cantante?",
+      "si": {
+        "pregunta": "¿Es mujer?",
+        "si": {
+          "respuesta": "taylor swift"
+        },
+        "no": {
+          "respuesta": "michael jackson"
+        }
+      },
+      "no": {
+        "respuesta": "Albert Einstein"
+      }
+    }
+  },
+  "no": {
+    "pregunta": "¿Es de Disney?",
+    "si": {
+      "pregunta": "¿Es una princesa?",
+      "si": {
+        "pregunta": "¿Tiene un dragon de mascota?",
+        "si": {
+          "respuesta": "mulan"
+        },
+        "no": {
+          "pregunta": "¿Es sirena?",
+          "si": {
+            "respuesta": "ariel"
+          },
+          "no": {
+            "respuesta": "rapunzel"
+          }
+        }
+      },
+      "no": {
+        "pregunta": "¿Es un pez?",
+        "si": {
+          "respuesta": "nemo"
+        },
+        "no": {
+          "pregunta": "¿Sale en una pelicula de princesas?",
+          "si": {
+            "respuesta": "gus gus"
+          },
+          "no": {
+            "respuesta": "mickey mouse"
+          }
+        }
+      }
+    },
+    "no": {
+      "respuesta": "Harry Potter"
+    }
+  }
+}
